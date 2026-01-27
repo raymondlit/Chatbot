@@ -17,11 +17,16 @@ dist-ssr
 .env.local
 .env.*.local
 
+# macOS system files
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
